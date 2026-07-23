@@ -1,23 +1,18 @@
-# Hi, I'm Zishan (Shannon) Chen 👋
+# Zishan (Shannon) Chen
 
-### CS Student @ The University of Melbourne | Systems & Security Researcher
+Computer Science student at the University of Melbourne. I work on systems and security, mostly trusted execution environments (Intel SGX) and hiding memory access patterns.
 
-I am a second-year Computer Science student with a deep interest in low-level systems, memory optimization, and hardware-level security (TEE). 
+**Current work**
 
-### Code Availability & Academic Integrity
-My most significant engineering projects are not publicly visible for the following professional and academic reasons:
+- **OMI (Oblivious Memory Isolation).** An Intel SGX + ORAM vector database for LLM-agent retrieval. It hides which records a query touches from a malicious host, so the access pattern doesn't leak what the agent is reading. Currently under submission.
+- **Secure comparison SoK.** I run the MP-SPDZ experiments for a survey of secure two-party comparison protocols.
 
-1.  **Research Confidentiality:** My active research on Trusted Execution Environments (TEE), involving Intel SGX and ORAM, is hosted in a private repository on my personal GitHub account to maintain confidentiality prior to potential publication.
-2.  **Academic Integrity:** My core C/C++/Java coursework is submitted via a mix of private university GitLab instances and the university's learning platform (Ed). In accordance with the University of Melbourne's academic integrity policy, this work is kept private to prevent plagiarism.
+**Selected coursework (C, systems)**
 
-I am fully available to screen-share code, discuss system architecture, and review memory profiling metrics (Valgrind) during technical interviews.
+- A puzzle solver using Iterated Width search over a radix trie, with bit-packed state to keep the working set in cache.
+- A Patricia trie dictionary with manual memory management and fuzzy (Levenshtein) lookup, profiled with Valgrind Massif.
+- A relational schema and query set for an EV-charging network database.
 
-### What I actually build:
-* **Secure Vector Databases (Current Research):** Writing C++ to protect LLM agents from memory-poisoning. I'm using Intel SGX, Path ORAM, and branchless CMOV instructions to stop microarchitectural side-channel leaks. (Currently running this on a custom Docker/QEMU x86 emulation stack I built for Apple Silicon).
-* **Combinatorial AI Solver (C):** Built a high-performance puzzle solver using Iterated Width (IW) search and Radix Trees. I used custom bit-packing protocols to slash the memory footprint by 87% and maximize CPU cache locality.
-* **Low-Latency Dictionary (C):** Built a Patricia Trie from scratch for O(k) lookups. I managed all dynamic memory manually (safe_malloc wrappers) and used Valgrind Massif to profile heap allocations while optimizing Levenshtein distance fuzzy searches.
-* **Database Architecture (SQL):** Designed a massive, complex ERD for a SpaceX-style launch system and engineered advanced nested SQL queries for an EV charging network database.
+**Why most repos are private.** Coursework stays private under the University's academic integrity policy, and the SGX research is private until publication. I'm happy to screen-share any of it (code, design, or profiling metrics) in an interview.
 
-### Hit me up:
-* [LinkedIn](https://www.linkedin.com/in/zishan-chen-25477b330/)
-* shannon.zishan@outlook.com
+**Contact:** shannon.zishan@outlook.com
