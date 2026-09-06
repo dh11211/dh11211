@@ -1,19 +1,19 @@
 # Zishan (Shannon) Chen
 
-Computer Science student at the University of Melbourne. I work on systems and security, mostly trusted execution environments (Intel SGX) and hiding memory access patterns.
+I build systems in C/C++ and work on confidential computing, privacy-preserving retrieval and systems security.
 
-**Current work**
+## Technical focus
 
-- **OMI (Oblivious Memory Isolation).** An Intel SGX + ORAM system for oblivious nearest-neighbour retrieval in LLM-agent memory. It hides which records a query touches from a malicious host, so the access pattern doesn't leak what the agent is reading. Currently under submission.
-- **Private graph analytics.** Working out when hiding the access pattern of personalized PageRank on an untrusted server can be made cheap, and when it can't. My SCIE30001 research subject, supervised by Dr. Shangqi Lai.
-- **Secure comparison SoK.** Working on the protocol taxonomy and experimental evaluation for a survey of secure comparison techniques in multi-party computation.
+- **Secure systems:** Intel SGX, oblivious RAM (ORAM), constant-time programming and secure multi-party computation.
+- **Systems programming:** Linux, TCP sockets, memory management and performance-oriented C/C++ development.
+- **Privacy-preserving data access:** secure retrieval for AI-agent memory and private graph analytics.
 
-**Selected coursework (C, systems)**
+## Public work
 
-- A puzzle solver using Iterated Width search over a radix trie, with bit-packed state to keep the working set in cache.
-- A Patricia trie dictionary with manual memory management and fuzzy (Levenshtein) lookup, profiled with Valgrind Massif.
-- A relational schema and query set for an EV-charging network database.
+- [AI Course Advisor](https://github.com/dh11211/ai-course-advisor) — a FastAPI/React retrieval application for University of Melbourne course planning, with a Python ingestion pipeline and Qdrant-backed semantic search.
+- [AI Health Summarizer](https://github.com/dh11211/health-summary-hackathon) — a Flask application that turns consultations into structured SOAP notes and plain-language summaries.
 
-**Why most repos are private.** Coursework stays private under the University's academic integrity policy, and the research is private until publication. I'm happy to screen-share any of it (code, design, or profiling metrics) in an interview.
+## Elsewhere
 
-**Contact:** shannon.zishan@outlook.com
+- [LinkedIn](https://www.linkedin.com/in/zishan-chen-25477b330)
+- [Email](mailto:shannon.zishan@outlook.com)
