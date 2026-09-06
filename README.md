@@ -1,19 +1,15 @@
 # Zishan (Shannon) Chen
 
-I build systems in C/C++ and work on confidential computing, privacy-preserving retrieval and systems security.
+I am a Computing and Software Systems undergraduate at the University of Melbourne. My work sits at the intersection of systems security, confidential computing and privacy-preserving data access.
 
-## Technical focus
+## Current research
 
-- **Secure systems:** Intel SGX, oblivious RAM (ORAM), constant-time programming and secure multi-party computation.
-- **Systems programming:** Linux, TCP sockets, memory management and performance-oriented C/C++ development.
-- **Privacy-preserving data access:** secure retrieval for AI-agent memory and private graph analytics.
+- **Confidential retrieval for AI-agent memory** — building and evaluating a C++ prototype in Intel SGX that uses oblivious RAM and constant-time techniques to protect retrieval access patterns.
+- **Secure comparison in multi-party computation** — developing a framework for analysing the costs and trade-offs of secure-comparison protocols.
+- **Privacy-preserving graph analytics** — researching techniques for personalized PageRank without exposing sensitive graph data.
 
-## Public work
+## Technical interests
 
-- [AI Course Advisor](https://github.com/dh11211/ai-course-advisor) — a FastAPI/React retrieval application for University of Melbourne course planning, with a Python ingestion pipeline and Qdrant-backed semantic search.
-- [AI Health Summarizer](https://github.com/dh11211/health-summary-hackathon) — a Flask application that turns consultations into structured SOAP notes and plain-language summaries.
+Confidential computing · systems security · privacy-preserving systems · C/C++ systems programming
 
-## Elsewhere
-
-- [LinkedIn](https://www.linkedin.com/in/zishan-chen-25477b330)
-- [Email](mailto:shannon.zishan@outlook.com)
+[LinkedIn](https://www.linkedin.com/in/zishan-chen-25477b330) · [Email](mailto:shannon.zishan@outlook.com)
