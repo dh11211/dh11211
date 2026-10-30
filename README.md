@@ -10,6 +10,6 @@ Undergraduate researcher at the University of Melbourne, working on confidential
 
 **Engineering**
 
-- Fixture scheduler for the Waverley & District Tennis Association (Java, Spring Boot, MySQL), built with a five-person team for my capstone. I wrote most of the merged backend pull requests, including the rewrite of its scheduling search as a Sat4j constraint model. The client's request files that the old search could not schedule now solve in under a second.
+- Fixture scheduler for the Waverley & District Tennis Association: the backend that builds each interclub season's draw (Java, Spring Boot). University capstone, five-person team
 
 [LinkedIn](https://www.linkedin.com/in/zishan-chen-25477b330) · [Email](mailto:shannon.zishan@outlook.com)
